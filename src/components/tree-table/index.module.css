@@ -1,0 +1,9 @@
+.checkbox-column :global(.cell) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-cell {
+  margin-left: 17px;
+}

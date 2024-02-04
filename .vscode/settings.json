@@ -1,0 +1,27 @@
+{
+  // Use the project's typescript version
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.enabledLanguageIds": [
+    "markdown",
+    "plaintext",
+    "text",
+    "yml"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // Use prettier to format typescript, javascript and JSON files
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vue.codeActions.enabled": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "git-blame.gitWebUrl": ""
+}
